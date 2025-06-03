@@ -1,0 +1,47 @@
+.public-block{
+    background: rgb(32, 36, 45);
+}
+.file-card-list {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.file-card {
+    background-color: white;
+    border: 2px solid rgb(255, 159, 80);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Oswald-Regular;
+    font-size: 20px;
+    color: rgb(12, 19, 32);
+}
+.file-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-date {
+    font-size: 16px;
+    color: gray;
+    margin-top: 4px;
+}
+
+.download-btn {
+    background: rgb(255, 159, 80);
+    border: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.download-btn:hover {
+    background: rgb(255, 136, 39);
+}

@@ -1,0 +1,45 @@
+.about-us-blcok{
+    background: rgb(32, 36, 45);
+}
+
+.title-fix{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-us-info-blcok {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.about-us-img {
+    height: 450px;
+    max-width: 45vw;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.about-us-text {
+    color: whitesmoke;
+    width: 50%;
+    font-size: 22px;
+    font-family: Oswald-Light;
+    line-height: 1.6;
+}
+
+.about-us-text p {
+    margin-bottom: 1em;
+}
+
+.about-us-subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

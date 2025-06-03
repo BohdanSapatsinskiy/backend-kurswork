@@ -1,0 +1,100 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info-gallery {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    background-color: rgba(12, 19, 32, 0.6);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.gallery-title {
+    font-family: Oswald-Regular;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery-about{
+    font-family:Oswald-Light;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.gallery-date {
+    font-family: Oswald-Regular;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.pagination-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pagination {
+    display: inline-flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination li a,
+.pagination li span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    min-width: 30px;
+    font-size: 12px;
+    font-family: Oswald-Medium;
+    border-radius: 50px;
+    background: rgb(255, 159, 80);
+    color: whitesmoke;
+}
+
+.pagination li a:hover {
+    background: rgb(255, 136, 39);
+}
+
+.pagination li.active span,
+.pagination li.selected span {
+    background: rgb(255, 136, 39);
+    font-weight: bold;
+}
+
